@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 100%;
+   
+    background-color:black;
+    .header{
+        display: flex;
+       
+        color: white;
+    }
+    .userbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        color:white;
+    }
+}
+main{
+    width: 100px;
+   
+    .section{
+        background-color: rgb(10, 76, 76);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

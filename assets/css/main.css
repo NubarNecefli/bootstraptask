@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+}
+.container .header {
+  display: flex;
+  color: white;
+}
+.container .userbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+
+main {
+  width: 100px;
+}
+main .section {
+  background-color: rgb(10, 76, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
